@@ -5,6 +5,7 @@ require 'sinatra'
 
 # controllers
 require './controllers/scrap'
+require './controllers/daraz'
 
 get '/' do
   erb :index
